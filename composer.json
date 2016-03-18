@@ -1,0 +1,31 @@
+{
+    "name": "vrkansagara/elasticsearch-query-builder-php",
+    "description": "Simple elasticsearch query builder based on php.",
+    "keywords": [
+      "elasticsearch",
+      "query",
+      "builder",
+      "php"
+    ],
+    "type": "project",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/vrkansagara/elasticsearch-query-builder-php"
+      }
+    ],
+    "homepage": "http://www.vrkansagara.in",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vallabh Kansagara",
+            "email": "vrkansagara@gmail.com"
+        }
+    ],
+    "require": {
+    "php" : ">=5.5",
+		"elasticsearch/elasticsearch" : "~2.0",
+		"monolog/monolog": "~1.17"
+	},
+	"prefer-stable": true
+}
